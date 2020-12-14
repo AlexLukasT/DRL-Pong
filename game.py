@@ -186,3 +186,8 @@ class Game:
                 self.reset(score)
                 return score  # return a 1 for the AI winning and 2 for the player winning
 
+
+
+if __name == "__main__":
+    pong = game.Game(600, 400)
+    pong.run()
